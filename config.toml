@@ -1,4 +1,4 @@
-baseURL = "https://example.org/"  # 网站的基础 URL 地址
+baseURL = "https://merthon.github.io"  # 网站的基础 URL 地址
 defaultContentLanguage = "en"  # 默认内容语言为英语
 enableEmoji = true  # 启用表情符号
 enableRobotsTXT = true  # 启用 robots.txt 文件（控制搜索引擎的抓取行为）
