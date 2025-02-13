@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Merthon</title><link>http://localhost:1313/</link><description>Recent content on Merthon</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>Python</title><link>http://localhost:1313/projects/python/</link><pubDate>Thu, 13 Feb 2025 21:32:30 +0800</pubDate><guid>http://localhost:1313/projects/python/</guid><description>&lt;h2 id="a-long-time-ago-in-a-galaxy-far-far-away">A long time ago in a galaxy far, far away&amp;hellip;.&lt;/h2>
-&lt;p>A project was planned, but never completed.&lt;/p></description></item><item><title>Hello</title><link>http://localhost:1313/posts/hello/</link><pubDate>Thu, 13 Feb 2025 16:51:09 +0800</pubDate><guid>http://localhost:1313/posts/hello/</guid><description/></item><item><title>用户密码安全存储</title><link>http://localhost:1313/posts/%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81%E5%AE%89%E5%85%A8%E5%AD%98%E5%82%A8/</link><pubDate>Mon, 24 Jun 2024 10:03:33 +0800</pubDate><guid>http://localhost:1313/posts/%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81%E5%AE%89%E5%85%A8%E5%AD%98%E5%82%A8/</guid><description>&lt;h5 id="为什么不能明文存储密码">为什么不能明文存储密码？&lt;/h5>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Merthon</title><link>https://merthon.github.io/</link><description>Recent content on Merthon</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://merthon.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Python</title><link>https://merthon.github.io/projects/python/</link><pubDate>Thu, 13 Feb 2025 21:32:30 +0800</pubDate><guid>https://merthon.github.io/projects/python/</guid><description>&lt;h2 id="a-long-time-ago-in-a-galaxy-far-far-away">A long time ago in a galaxy far, far away&amp;hellip;.&lt;/h2>
+&lt;p>A project was planned, but never completed.&lt;/p></description></item><item><title>Hello</title><link>https://merthon.github.io/posts/hello/</link><pubDate>Thu, 13 Feb 2025 16:51:09 +0800</pubDate><guid>https://merthon.github.io/posts/hello/</guid><description/></item><item><title>用户密码安全存储</title><link>https://merthon.github.io/posts/%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81%E5%AE%89%E5%85%A8%E5%AD%98%E5%82%A8/</link><pubDate>Mon, 24 Jun 2024 10:03:33 +0800</pubDate><guid>https://merthon.github.io/posts/%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81%E5%AE%89%E5%85%A8%E5%AD%98%E5%82%A8/</guid><description>&lt;h5 id="为什么不能明文存储密码">为什么不能明文存储密码？&lt;/h5>
 &lt;p>明文就是直接存储密码，这样有很大的风险，比如数据泄露，被人攻击等问题。所以为了避免这些问题，我们需要对密码进行加密存储。&lt;/p>
 &lt;h5 id="非明文存储密码">非明文存储密码&lt;/h5>
 &lt;h6 id="哈希算法">哈希算法&lt;/h6>
@@ -50,7 +50,7 @@
 &lt;li>CheckPasswordHash函数：该函数使用bcrypt库比较输入的密码和存储的哈希值。bcrypt库会从哈希值中提取盐值，并使用它来验证密码。&lt;/li>
 &lt;/ol>
 &lt;h5 id="结尾">结尾&lt;/h5>
-&lt;p>这就是用户密码的非明文存储，密码哈希算法可以有效地保护用户密码的安全，有效防止密码泄露，保护用户数据安全。&lt;/p></description></item><item><title>JavaScript02</title><link>http://localhost:1313/posts/javascript02/</link><pubDate>Thu, 01 Jun 2023 21:44:23 +0800</pubDate><guid>http://localhost:1313/posts/javascript02/</guid><description>&lt;p>JavaScript02&lt;/p>
+&lt;p>这就是用户密码的非明文存储，密码哈希算法可以有效地保护用户密码的安全，有效防止密码泄露，保护用户数据安全。&lt;/p></description></item><item><title>JavaScript02</title><link>https://merthon.github.io/posts/javascript02/</link><pubDate>Thu, 01 Jun 2023 21:44:23 +0800</pubDate><guid>https://merthon.github.io/posts/javascript02/</guid><description>&lt;p>JavaScript02&lt;/p>
 &lt;h2 id="函数补漏">函数（补漏）&lt;/h2>
 &lt;h3 id="回调函数">回调函数&lt;/h3>
 &lt;p>函数作为值来传递以及如何使用函数表达式
@@ -79,7 +79,7 @@ ask(&amp;#34;Do you agree?&amp;#34;, showOk, showCancel);
 &amp;lt;/script&amp;gt;
 &lt;/code>&lt;/pre>&lt;p>&lt;code>ask&lt;/code> 的两个参数值 &lt;code>showOk&lt;/code> 和 &lt;code>showCancel&lt;/code> 可以被称为 &lt;strong>回调函数&lt;/strong> 或简称 &lt;strong>回调&lt;/strong>。
 主要思想是我们传递一个函数，并期望在稍后必要时将其“回调”。
-使用函数表达式来编写一个等价的、更简洁的函数：&lt;/p></description></item><item><title>JavaScript01</title><link>http://localhost:1313/posts/javascript01/</link><pubDate>Tue, 30 May 2023 00:25:58 +0800</pubDate><guid>http://localhost:1313/posts/javascript01/</guid><description>&lt;p>JavaScript基础&lt;/p>
+使用函数表达式来编写一个等价的、更简洁的函数：&lt;/p></description></item><item><title>JavaScript01</title><link>https://merthon.github.io/posts/javascript01/</link><pubDate>Tue, 30 May 2023 00:25:58 +0800</pubDate><guid>https://merthon.github.io/posts/javascript01/</guid><description>&lt;p>JavaScript基础&lt;/p>
 &lt;h2 id="变量">变量&lt;/h2>
 &lt;h3 id="变量-1">变量&lt;/h3>
 &lt;p>一个变量，就是一个用于存放数值的容器。这个数值可能是一个用于累加计算的数字，或者是一个句子中的字符串。变量的独特之处在于它存放的数值是可以改变的，它们能够存储任何的东西 &amp;ndash; 不只是字符串和数字。变量可以存储更复杂的数据，甚至是函数。&lt;/p>
@@ -109,7 +109,7 @@ myName = &amp;#39;Bob&amp;#39;;
 &lt;p>在变量中存储数字，不论这些数字是像 30（也叫整数）这样，或者像 2.456 这样的小数（也叫做浮点数）。与其他编程语言不同，在 JavaScript 中你不需要声明一个变量的类型。当你给一个变量数字赋值时，不需要用引号括起来。&lt;/p>
 &lt;pre tabindex="0">&lt;code>let myAge = 17;
 &lt;/code>&lt;/pre>&lt;h5 id="数字类型">数字类型&lt;/h5>
-&lt;p>在编程中，即使是人人熟知的最普遍的十进制数，也比你想象的要复杂的多。我们使用不同的术语来描述不同类型的十进制数，例如：&lt;/p></description></item><item><title>CSS</title><link>http://localhost:1313/posts/css/</link><pubDate>Fri, 26 May 2023 08:44:06 +0800</pubDate><guid>http://localhost:1313/posts/css/</guid><description>&lt;p>CSS学习笔记
+&lt;p>在编程中，即使是人人熟知的最普遍的十进制数，也比你想象的要复杂的多。我们使用不同的术语来描述不同类型的十进制数，例如：&lt;/p></description></item><item><title>CSS</title><link>https://merthon.github.io/posts/css/</link><pubDate>Fri, 26 May 2023 08:44:06 +0800</pubDate><guid>https://merthon.github.io/posts/css/</guid><description>&lt;p>CSS学习笔记
 层叠样式表 (Cascading Style Sheets)&lt;/p>
 &lt;h2 id="语法">语法&lt;/h2>
 &lt;p>每个声明分号结尾&lt;/p>
@@ -183,7 +183,7 @@ myName = &amp;#39;Bob&amp;#39;;
 &lt;h3 id="关系选择器">关系选择器&lt;/h3>
 &lt;ul>
 &lt;li>
-&lt;p>后代选择器：某个元素的所有子孙节点，例如body中的所有p标签&lt;/p></description></item><item><title>HTML</title><link>http://localhost:1313/posts/html/</link><pubDate>Thu, 25 May 2023 08:33:48 +0800</pubDate><guid>http://localhost:1313/posts/html/</guid><description>&lt;h1 id="html">HTML&lt;/h1>
+&lt;p>后代选择器：某个元素的所有子孙节点，例如body中的所有p标签&lt;/p></description></item><item><title>HTML</title><link>https://merthon.github.io/posts/html/</link><pubDate>Thu, 25 May 2023 08:33:48 +0800</pubDate><guid>https://merthon.github.io/posts/html/</guid><description>&lt;h1 id="html">HTML&lt;/h1>
 &lt;h2 id="1什么是html">1.什么是HTML？&lt;/h2>
 &lt;p>HTML(HyperText Markup Language，超文本标记语言）是一种用来告知浏览器如何组织页面的&lt;em>&lt;strong>标记语言&lt;/strong>&lt;/em>。HTML 由一系列的组成，这些元素可以用来包围或_标记_不同部分的内容，使其以某种方式呈现或者工作。&lt;/p>
 &lt;blockquote>
@@ -231,7 +231,7 @@ myName = &amp;#39;Bob&amp;#39;;
 &amp;lt;/div&amp;gt;
 &lt;/code>&lt;/pre>&lt;h3 id="多媒体和嵌入">多媒体和嵌入&lt;/h3>
 &lt;h4 id="图片">图片&lt;/h4>
-&lt;p>用&lt;code>&amp;lt;img&amp;gt;&lt;/code> 元素来把图片放到网页上。它是一个空元素（它不需要包含文本内容或闭合标签），最少只需要一个 &lt;code>src&lt;/code> （一般读作其全称 *source）*来使其生效。&lt;code>src&lt;/code> 属性包含了指向我们想要引入的图片的路径，可以是相对路径或绝对 URL，就像 &lt;code>&amp;lt;a&amp;gt;&lt;/code>元素的 &lt;code>href&lt;/code> 属性一样。&lt;/p></description></item><item><title>JDBC_02</title><link>http://localhost:1313/posts/jdbc_02/</link><pubDate>Wed, 27 Jul 2022 20:52:38 +0800</pubDate><guid>http://localhost:1313/posts/jdbc_02/</guid><description>&lt;h4 id="1-jdbc-工具类的抽取">1. JDBC 工具类的抽取&lt;/h4>
+&lt;p>用&lt;code>&amp;lt;img&amp;gt;&lt;/code> 元素来把图片放到网页上。它是一个空元素（它不需要包含文本内容或闭合标签），最少只需要一个 &lt;code>src&lt;/code> （一般读作其全称 *source）*来使其生效。&lt;code>src&lt;/code> 属性包含了指向我们想要引入的图片的路径，可以是相对路径或绝对 URL，就像 &lt;code>&amp;lt;a&amp;gt;&lt;/code>元素的 &lt;code>href&lt;/code> 属性一样。&lt;/p></description></item><item><title>JDBC_02</title><link>https://merthon.github.io/posts/jdbc_02/</link><pubDate>Wed, 27 Jul 2022 20:52:38 +0800</pubDate><guid>https://merthon.github.io/posts/jdbc_02/</guid><description>&lt;h4 id="1-jdbc-工具类的抽取">1. JDBC 工具类的抽取&lt;/h4>
 &lt;h5 id="11-配置文件">1.1 配置文件&lt;/h5>
 &lt;p>在 src 下创建 config.properties 文件&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-properties" data-lang="properties">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">driverClass&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">com.mysql.jdbc.Driver&lt;/span>
@@ -338,7 +338,7 @@ myName = &amp;#39;Bob&amp;#39;;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="2-sql-注入攻击">2. SQL 注入攻击&lt;/h4>
 &lt;h5 id="21-什么是-sql-注入攻击">2.1 什么是 sql 注入攻击&lt;/h5>
-&lt;p>就是利用 sql 语句的漏洞来进行对系统攻击，比如说在一个登录界面，输入一个错误的用户名或密码，也可以登录成功&lt;/p></description></item><item><title>JDBC_01</title><link>http://localhost:1313/posts/jdbc_01/</link><pubDate>Mon, 25 Jul 2022 11:21:33 +0800</pubDate><guid>http://localhost:1313/posts/jdbc_01/</guid><description>&lt;h2 id="jdbc_01">JDBC_01&lt;/h2>
+&lt;p>就是利用 sql 语句的漏洞来进行对系统攻击，比如说在一个登录界面，输入一个错误的用户名或密码，也可以登录成功&lt;/p></description></item><item><title>JDBC_01</title><link>https://merthon.github.io/posts/jdbc_01/</link><pubDate>Mon, 25 Jul 2022 11:21:33 +0800</pubDate><guid>https://merthon.github.io/posts/jdbc_01/</guid><description>&lt;h2 id="jdbc_01">JDBC_01&lt;/h2>
 &lt;h4 id="1-概念和本质">1. 概念和本质&lt;/h4>
 &lt;p>JDBC（Java DataBase Connectivity）java 数据库连接，是一种用于执行 SQL 语句的 Java API，可以为多种关系型数据库提供统一访问，由一组用 Java 语言编写的类和接口组成的。本质上是 java 官方提供的一套规范（接口），用于快速实现不同关系型的数据库的连接。&lt;/p>
 &lt;h4 id="2-功能类详解">2. 功能类详解&lt;/h4>
@@ -386,7 +386,7 @@ myName = &amp;#39;Bob&amp;#39;;
 &lt;/ul>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-java" data-lang="java">&lt;span style="display:flex;">&lt;span>Connection con &lt;span style="color:#f92672">=&lt;/span> DriverManager.&lt;span style="color:#a6e22e">getConnection&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;jdbc:mysql://localhost:3306/db2&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;root&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;root&amp;#34;&lt;/span>);
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h5 id="22-connection">2.2 Connection&lt;/h5>
-&lt;p>Connection：数据库连接对象&lt;/p></description></item><item><title>Java高级：反射（Reflect）笔记</title><link>http://localhost:1313/posts/java%E9%AB%98%E7%BA%A7%E5%8F%8D%E5%B0%84reflect%E7%AC%94%E8%AE%B0/</link><pubDate>Fri, 08 Jul 2022 19:28:51 +0800</pubDate><guid>http://localhost:1313/posts/java%E9%AB%98%E7%BA%A7%E5%8F%8D%E5%B0%84reflect%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="java-高级反射reflect笔记">Java 高级：反射(reflect)笔记&lt;/h2>
+&lt;p>Connection：数据库连接对象&lt;/p></description></item><item><title>Java高级：反射（Reflect）笔记</title><link>https://merthon.github.io/posts/java%E9%AB%98%E7%BA%A7%E5%8F%8D%E5%B0%84reflect%E7%AC%94%E8%AE%B0/</link><pubDate>Fri, 08 Jul 2022 19:28:51 +0800</pubDate><guid>https://merthon.github.io/posts/java%E9%AB%98%E7%BA%A7%E5%8F%8D%E5%B0%84reflect%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="java-高级反射reflect笔记">Java 高级：反射(reflect)笔记&lt;/h2>
 &lt;h3 id="1-反射的概述">1. 反射的概述&lt;/h3>
 &lt;p>是在运行状态中，对于任意一个类，都能够知道这个类的所有属性和方法；
 对于任意一个对象，都能够调用它的任意属性和方法；
@@ -573,11 +573,11 @@ myName = &amp;#39;Bob&amp;#39;;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="5反射获取成员变量">5.反射获取成员变量&lt;/h3>
 &lt;h4 id="51-class-类获取成员变量对象的方法">5.1 Class 类获取成员变量对象的方法&lt;/h4>
-&lt;p>方法分类&lt;/p></description></item><item><title>Java高级：类加载器（ClassLoader）笔记</title><link>http://localhost:1313/posts/java%E9%AB%98%E7%BA%A7%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8classloader%E7%AC%94%E8%AE%B0/</link><pubDate>Wed, 06 Jul 2022 19:09:39 +0800</pubDate><guid>http://localhost:1313/posts/java%E9%AB%98%E7%BA%A7%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8classloader%E7%AC%94%E8%AE%B0/</guid><description>&lt;h3 id="1什么是类加载器">1.什么是类加载器&lt;/h3>
+&lt;p>方法分类&lt;/p></description></item><item><title>Java高级：类加载器（ClassLoader）笔记</title><link>https://merthon.github.io/posts/java%E9%AB%98%E7%BA%A7%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8classloader%E7%AC%94%E8%AE%B0/</link><pubDate>Wed, 06 Jul 2022 19:09:39 +0800</pubDate><guid>https://merthon.github.io/posts/java%E9%AB%98%E7%BA%A7%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8classloader%E7%AC%94%E8%AE%B0/</guid><description>&lt;h3 id="1什么是类加载器">1.什么是类加载器&lt;/h3>
 &lt;p>类加载器就是负责将.class 文件（实际存储到硬盘上的一些理文件）加载到内存中&lt;/p>
 &lt;p>关于类加载时机，用到就加载，不用就不加载&lt;/p>
 &lt;h3 id="2类加载器的过程">2.类加载器的过程&lt;/h3>
-&lt;p>&lt;img src="http://localhost:1313/C:/Users/KevinWilliams/Desktop/blog/img/%E8%BF%87%E7%A8%8B.jpg" alt="类加载过程">&lt;/p>
+&lt;p>&lt;img src="https://merthon.github.io/C:/Users/KevinWilliams/Desktop/blog/img/%E8%BF%87%E7%A8%8B.jpg" alt="类加载过程">&lt;/p>
 &lt;!-- raw HTML omitted -->
 &lt;h5 id="加载">加载：&lt;/h5>
 &lt;ul>
@@ -642,7 +642,7 @@ myName = &amp;#39;Bob&amp;#39;;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> is.&lt;span style="color:#a6e22e">close&lt;/span>();
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Linux下dpkg，apt Get，yum和rpm命令的区别</title><link>http://localhost:1313/posts/linux%E4%B8%8Bdpkgapt-getyum%E5%92%8Crpm%E5%91%BD%E4%BB%A4%E7%9A%84%E5%8C%BA%E5%88%AB/</link><pubDate>Wed, 13 Apr 2022 09:56:02 +0800</pubDate><guid>http://localhost:1313/posts/linux%E4%B8%8Bdpkgapt-getyum%E5%92%8Crpm%E5%91%BD%E4%BB%A4%E7%9A%84%E5%8C%BA%E5%88%AB/</guid><description>&lt;h3 id="1linux-派系">1.Linux 派系&lt;/h3>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Linux下dpkg，apt Get，yum和rpm命令的区别</title><link>https://merthon.github.io/posts/linux%E4%B8%8Bdpkgapt-getyum%E5%92%8Crpm%E5%91%BD%E4%BB%A4%E7%9A%84%E5%8C%BA%E5%88%AB/</link><pubDate>Wed, 13 Apr 2022 09:56:02 +0800</pubDate><guid>https://merthon.github.io/posts/linux%E4%B8%8Bdpkgapt-getyum%E5%92%8Crpm%E5%91%BD%E4%BB%A4%E7%9A%84%E5%8C%BA%E5%88%AB/</guid><description>&lt;h3 id="1linux-派系">1.Linux 派系&lt;/h3>
 &lt;ul>
 &lt;li>RedHat 系列：RedHat，CentOS，Fedora 等&lt;/li>
 &lt;li>Debian 系列：Debian，Ubuntu 等&lt;/li>
@@ -681,6 +681,6 @@ sudo rpm -e 安装包.rpm
 &lt;/ul>
 &lt;h3 id="3debian-系列">3.Debian 系列&lt;/h3>
 &lt;h4 id="dpkg">dpkg&lt;/h4>
-&lt;p>dpkg 是 Debian Package 的简写。为 Debian 专门开发的套件管理系统，方便软件的安装、更新及移除。所有源自 Debian 的 Linux 发行版都使用 dpkg，例如 Ubuntu、Knoppix 等。&lt;/p></description></item><item><title>设置Windows系统的cmd命令行终端的代理</title><link>http://localhost:1313/posts/%E8%AE%BE%E7%BD%AEwindows%E7%B3%BB%E7%BB%9F%E7%9A%84cmd%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%BB%88%E7%AB%AF%E7%9A%84%E4%BB%A3%E7%90%86/</link><pubDate>Sun, 06 Feb 2022 21:06:42 +0800</pubDate><guid>http://localhost:1313/posts/%E8%AE%BE%E7%BD%AEwindows%E7%B3%BB%E7%BB%9F%E7%9A%84cmd%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%BB%88%E7%AB%AF%E7%9A%84%E4%BB%A3%E7%90%86/</guid><description/></item><item><title>Hello</title><link>http://localhost:1313/projects/hello/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/projects/hello/</guid><description>&lt;h2 id="a-long-time-ago-in-a-galaxy-far-far-away">A long time ago in a galaxy far, far away&amp;hellip;.&lt;/h2>
-&lt;p>A project was planned, but never completed.&lt;/p></description></item><item><title>Tatooine</title><link>http://localhost:1313/projects/tatooine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/projects/tatooine/</guid><description>&lt;h2 id="a-long-time-ago-in-a-galaxy-far-far-away">A long time ago in a galaxy far, far away&amp;hellip;.&lt;/h2>
+&lt;p>dpkg 是 Debian Package 的简写。为 Debian 专门开发的套件管理系统，方便软件的安装、更新及移除。所有源自 Debian 的 Linux 发行版都使用 dpkg，例如 Ubuntu、Knoppix 等。&lt;/p></description></item><item><title>设置Windows系统的cmd命令行终端的代理</title><link>https://merthon.github.io/posts/%E8%AE%BE%E7%BD%AEwindows%E7%B3%BB%E7%BB%9F%E7%9A%84cmd%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%BB%88%E7%AB%AF%E7%9A%84%E4%BB%A3%E7%90%86/</link><pubDate>Sun, 06 Feb 2022 21:06:42 +0800</pubDate><guid>https://merthon.github.io/posts/%E8%AE%BE%E7%BD%AEwindows%E7%B3%BB%E7%BB%9F%E7%9A%84cmd%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%BB%88%E7%AB%AF%E7%9A%84%E4%BB%A3%E7%90%86/</guid><description/></item><item><title>Hello</title><link>https://merthon.github.io/projects/hello/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://merthon.github.io/projects/hello/</guid><description>&lt;h2 id="a-long-time-ago-in-a-galaxy-far-far-away">A long time ago in a galaxy far, far away&amp;hellip;.&lt;/h2>
+&lt;p>A project was planned, but never completed.&lt;/p></description></item><item><title>Tatooine</title><link>https://merthon.github.io/projects/tatooine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://merthon.github.io/projects/tatooine/</guid><description>&lt;h2 id="a-long-time-ago-in-a-galaxy-far-far-away">A long time ago in a galaxy far, far away&amp;hellip;.&lt;/h2>
 &lt;p>A project was planned, but never completed.&lt;/p></description></item></channel></rss>
