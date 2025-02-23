@@ -79,35 +79,6 @@ migrate 命令获取所有尚未应用的迁移（Django 使用数据库中一�
  Django 为提供的免费 API。要调用 Python shell，请使用以下命令：
  `python manage.py shell`
  我们使用它来而不是简单地键入 “python”，因为 manage.py 设置了 DJANGO_SETTINGS_MODULE 环境变量，这会为 Django 提供 mysite/settings.py 文件的 Python 导入路径。
- 进入 shell 后，探索数据库 API:
- ```shell
- >>> from polls.models import Choice, Question  # Import the model classes we just wrote.
-# No questions are in the system yet.
->>> Question.objects.all()
-<QuerySet []>
-# Create a new Question.
-# Support for time zones is enabled in the default settings file, so
-# Django expects a datetime with tzinfo for pub_date. Use timezone.now()
-# instead of datetime.datetime.now() and it will do the right thing.
->>> from django.utils import timezone
->>> q = Question(question_text="What's new?", pub_date=timezone.now())
-# Save the object into the database. You have to call save() explicitly.
->>> q.save()
-# Now it has an ID.
->>> q.id
-1
-# Access model field values via Python attributes.
->>> q.question_text
-"What's new?"
->>> q.pub_date
-datetime.datetime(2012, 2, 26, 13, 0, 0, 775217, tzinfo=datetime.timezone.utc)
-# Change values by changing the attributes, then calling save().
->>> q.question_text = "What's up?"
->>> q.save()
-# objects.all() displays all the questions in the database.
->>> Question.objects.all()
-<QuerySet [<Question: Question object (1)>]>
-```
 <Question: Question object (1)>不是此对象的有用表示形式。让我们通过编辑 Question 模型（在 polls/models.py 文件中）并向 Question 和 Choice 添加 __str__（） 方法来解决这个问题：
 ```python
 from django.db import models
