@@ -69,3 +69,13 @@ canonifyURLs = true
 
 [minify]
     minifyOutput = true  # 是否对输出内容进行压缩
+
+[languages]
+  [languages.en]
+    weight = 1
+    languageName = "English"
+
+  [languages.zh]
+    weight = 2
+    languageName = "中文"
+
