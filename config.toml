@@ -68,4 +68,6 @@ title = "Merthon"  # 网站的标题，显示在浏览器标签上
 [minify]
     minifyOutput = true  # 是否对输出内容进行压缩
 
+canonifyURLs = true
+relativeURLs = true
 
