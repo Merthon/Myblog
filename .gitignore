@@ -5,3 +5,5 @@ geckodriver.log
 .hugo_build.lock
 # Ignore build dir (hugo server)
 .DS_Store
+/resources/_gen/
+/.hugo_build.lock
