@@ -6,8 +6,6 @@ languageCode = "en"  # 网站使用的语言代码，默认是英语
 pygmentsStyle = "monokai"  # 代码高亮样式选择，可以是 emacs, trac 或 perldoc 中的一种
 theme = "gokarna"  # 主题选择，这里是 'gokarna'
 title = "Merthon"  # 网站的标题，显示在浏览器标签上
-relativeURLs = true
-canonifyURLs = true
 
 [params]
   avatarAltText = "cat"  # 头像的替代文本
@@ -70,12 +68,4 @@ canonifyURLs = true
 [minify]
     minifyOutput = true  # 是否对输出内容进行压缩
 
-[languages]
-  [languages.en]
-    weight = 1
-    languageName = "English"
-
-  [languages.zh]
-    weight = 2
-    languageName = "中文"
 
